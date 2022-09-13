@@ -11,8 +11,8 @@ const Greeting = () => {
   }, [dispatch]);
 
   return (
-    <div>
-      {greeting}
+    <div class="container">
+      <h1>{greeting}</h1>
     </div>
   );
 };
